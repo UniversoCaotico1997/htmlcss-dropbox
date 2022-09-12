@@ -15,18 +15,39 @@ img{
     clear: both;
     content: "";
 }
+/* end utility */
 
-.col_1{
-    width: calc(100% / 12 * 3);
+
+
+/* debug */
+.debug{
     height: 948px;
     background-color: pink;
     border: 1px solid black;
-    margin: 1rem 3rem;
-
-
     
 }
-/* end utility */
+
+.de_bug{
+    height: 512px;
+    background-color: pink;
+    border: 1px solid black;  
+}
+
+.debu_g{
+    height: 324px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.d_ebug{
+    height: 277px;
+    background-color: grey;
+    border: 1px solid black;
+}
+.size{
+    margin: 1rem 2rem;
+}
+
 
 /* start of header page*/
 
@@ -99,6 +120,8 @@ header{
     margin-top: 2rem;
 }
 /* column */
+
+
 .introduction{
     background-color: green;
     height: 133px;
@@ -107,17 +130,21 @@ header{
     height: 79px;
     background-color: orange;
 }
+.col_1{
+    width: calc(100% / 12 * 3);
+    
+}
 .col_centrale{
     background-color: coral;
     height: 254px;
+    margin: 0rem 2rem;
 }
 /*  end column */
 
 .picture{
     width: 60%;
     height: 511px;
-    margin-top: 4rem ;
-    margin-right: 2rem;
+    margin: 4rem 2rem;
     background-color: red;
 }
 .serch_partner{
@@ -126,10 +153,53 @@ header{
     background-color: green;
     margin-top: 4rem;
 }
+/* grid structure */
+
+
 .middle_title{
-    margin: 1rem 0rem;
+    margin: 1rem 2rem;
     width: 80%;
     height: 72px;
     background-color: blue;  
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* end grid structure */
+
+.report{
+    height: 215px;
+    background-color: brown;
+    width: 50%;
+    width: 50%;
+    margin: 4rem 2rem;
+}
+
+/* brand */
+
+.col_2{
+    width: calc(100% / 12 * 2);
+}
+.col_3{
+     width: calc(100% / 12 * 4);
+}
+.trial{
+     height: 356px;
+     background-color: #B4D0E7;
+}
+
+/* end brand */
+ 
+/* bottom bar */
+footer{
+    background-color: black;
+}
+.question{
+    margin: 4rem 2rem;
+    height: 489px;
+    background-color: yellow;
+}
+/* end bottom bar */
+
 

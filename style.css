@@ -7,3 +7,27 @@
 img{
     max-width: 100%;
 }
+
+header{
+    background-color: #B4D0E7;
+    height: 818px;
+}
+.top_banner{
+    background-color: #FFFFFF ;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    width: 537px;
+    height: 40px;
+    margin: 1.25rem 0rem;
+}
+.left{
+    background-color: red;
+}
+
+.right{
+    background-color: blue;
+}

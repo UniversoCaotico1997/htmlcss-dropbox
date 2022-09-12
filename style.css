@@ -10,10 +10,21 @@ img{
     max-width: 100%;
 }
 
-.clearfix::after{
+.clearfix:after{
     display: table;
     clear: both;
     content: "";
+}
+
+.col_1{
+    width: calc(100% / 12 * 3);
+    height: 948px;
+    background-color: pink;
+    border: 1px solid black;
+    margin: 1rem 3rem;
+
+
+    
 }
 /* end utility */
 
@@ -49,9 +60,9 @@ header{
 /* end navigation menu */
 
 
-.container{
+.container_medium{
     margin: auto;
-    width: 1091px;
+    width: 90%;
     height: 633px;
     margin-top: 3rem;
     background-color: black;
@@ -61,20 +72,64 @@ header{
     background-color: yellow; 
 }
 
+.box{
+    display: flex;
+}
 
-.business{
+.description{
     width: 387px;
     height: 387px;
     background-color: aqua;
     margin-top: 1.70rem;
-    float: left;
 }
-.plane{
+.front_app{
     width: 672px;
     height: 387px;
     background-color: purple;
     margin-top: 1.70rem;
     margin-left: 2rem;
-    float: left;
 }
 /*  end  header of page*/
+
+/* start of main page */
+
+.container_big{
+    margin: auto;
+    width: 70%;
+    margin-top: 2rem;
+}
+/* column */
+.introduction{
+    background-color: green;
+    height: 133px;
+}
+.checkbox{
+    height: 79px;
+    background-color: orange;
+}
+.col_centrale{
+    background-color: coral;
+    height: 254px;
+}
+/*  end column */
+
+.picture{
+    width: 60%;
+    height: 511px;
+    margin-top: 4rem ;
+    margin-right: 2rem;
+    background-color: red;
+}
+.serch_partner{
+    width: 30%;
+    height: 511px;
+    background-color: green;
+    margin-top: 4rem;
+}
+.middle_title{
+    margin: 1rem 0rem;
+    width: 80%;
+    height: 72px;
+    background-color: blue;  
+}
+

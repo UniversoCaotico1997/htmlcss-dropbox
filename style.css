@@ -1,3 +1,5 @@
+/* utilty */
+
 *{
     margin: 0;
     padding: 0;
@@ -8,10 +10,22 @@ img{
     max-width: 100%;
 }
 
+.clearfix::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+/* end utility */
+
+/* start of header page*/
+
+
 header{
     background-color: #B4D0E7;
     height: 818px;
 }
+/* navigation menu */
+
 .top_banner{
     background-color: #FFFFFF ;
     height: 80px;
@@ -31,3 +45,36 @@ header{
 .right{
     background-color: blue;
 }
+
+/* end navigation menu */
+
+
+.container{
+    margin: auto;
+    width: 1091px;
+    height: 633px;
+    margin-top: 3rem;
+    background-color: black;
+}
+.title{
+    height: 218px;
+    background-color: yellow; 
+}
+
+
+.business{
+    width: 387px;
+    height: 387px;
+    background-color: aqua;
+    margin-top: 1.70rem;
+    float: left;
+}
+.plane{
+    width: 672px;
+    height: 387px;
+    background-color: purple;
+    margin-top: 1.70rem;
+    margin-left: 2rem;
+    float: left;
+}
+/*  end  header of page*/

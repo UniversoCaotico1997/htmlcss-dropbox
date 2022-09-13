@@ -57,19 +57,14 @@ img{
 .top_banner{
     background-color: #FFFFFF ;
     display: flex;
-    justify-content: space-around;
-}
-
-.info_left{
-    margin: 1.25rem 0rem;   
-}
-
-.info_right{
-    margin: 1.25rem 0rem;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    
 }
 
 .logo_banner{
-
+ vertical-align: bottom;
 }
 
 a[href]{
@@ -109,7 +104,6 @@ a[href]{
 }
 
 .description{
-    width: 1200px;
     margin-top: 2rem;
 }
 .space{
@@ -117,6 +111,7 @@ a[href]{
 }
 .front_app{
     margin-top: 2rem;
+    width: 600px;
 }
 /*  end  header of page*/
 
@@ -124,7 +119,7 @@ a[href]{
 
 .container_big{
     margin: auto;
-    width: 70%;
+    width: 80%;
     margin-top: 2rem;
 }
 /* column */
@@ -134,14 +129,23 @@ a[href]{
     font-family: 'Open Sans', sans-serif;
     padding-left: 1rem;
 }
-.checkbox{
-    height: 79px;
-    background-color: orange;
+.choice{
+    padding: 2rem 1rem;
 }
-.col_1{
-    width: calc(100% / 12 * 3);
+
+.col_3{
+    width: calc(100% / 12 * 4);
+}
+
+ .symbol{
+    margin-top: 1rem;
+    border-bottom: 1px solid black;
+    text-align: center;
+    vertical-align: top;
     
-}
+   
+ }  
+
 .col_centrale{
     background-color: coral;
     height: 254px;
@@ -189,8 +193,8 @@ a[href]{
 .col_2{
     width: calc(100% / 12 * 2);
 }
-.col_3{
-     width: calc(100% / 12 * 4);
+.col_1{
+    width: calc(100% / 12 * 3);  
 }
 .trial{
      height: 356px;

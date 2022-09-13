@@ -141,10 +141,19 @@ a[href]{
     margin-top: 1rem;
     border-bottom: 1px solid black;
     text-align: center;
-    vertical-align: top;
-    
-   
- }  
+ } 
+.price{
+    padding: 2rem;
+}
+ .price>h3, p{
+    padding-bottom: 1rem;
+ }
+ .package{
+    padding: 2rem;
+ }
+ .package>div{
+    padding-bottom: 1rem;
+ }
 
 .col_centrale{
     background-color: coral;

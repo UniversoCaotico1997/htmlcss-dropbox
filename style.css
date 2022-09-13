@@ -52,30 +52,37 @@ img{
 /* start of header page*/
 
 
-header{
-    background-color: #B4D0E7;
-    height: 818px;
-}
 /* navigation menu */
 
 .top_banner{
     background-color: #FFFFFF ;
-    height: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.info{
-    width: 537px;
-    height: 40px;
+.info_left{
     margin: 1.25rem 0rem;
+    
 }
-.left{
-    background-color: red;
+.logo_banner{
+    
 }
 
-.right{
-    background-color: blue;
+a[href]{
+    margin: 0rem 1rem;
+    color: #828282;
+    text-decoration: none;
+}
+#button_top_bannner{
+    background-color: #0061FF;
+    color: white;
+    padding: 5px;
+    border: 1px solid;
+}
+
+
+.info_right{
+    margin: 1.25rem 0rem;
 }
 
 /* end navigation menu */

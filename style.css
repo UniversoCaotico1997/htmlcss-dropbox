@@ -10,7 +10,7 @@ img{
     max-width: 100%;
 }
 
-.clearfix:after{
+.clearfix::after{
     display: table;
     clear: both;
     content: "";
@@ -154,7 +154,12 @@ a[href]{
  .package>div{
     padding-bottom: 1rem;
  }
-
+.left{
+    float: left;
+}
+.pippo{
+    float: left;
+}
 .col_centrale{
     background-color: coral;
     height: 254px;

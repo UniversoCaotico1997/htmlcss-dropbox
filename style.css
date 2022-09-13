@@ -61,11 +61,15 @@ img{
 }
 
 .info_left{
-    margin: 1.25rem 0rem;
-    
+    margin: 1.25rem 0rem;   
 }
+
+.info_right{
+    margin: 1.25rem 0rem;
+}
+
 .logo_banner{
-    
+
 }
 
 a[href]{
@@ -73,31 +77,31 @@ a[href]{
     color: #828282;
     text-decoration: none;
 }
-#button_top_bannner{
+.customer{
     background-color: #0061FF;
     color: white;
-    padding: 5px;
-    border: 1px solid;
+    padding: 3px;
+    border: 1px solid #0061FF;
 }
 
-
-.info_right{
-    margin: 1.25rem 0rem;
-}
 
 /* end navigation menu */
 
-
+.color{
+    background-color:#B4D0E7;
+}
+.container_small{
+    margin: auto;
+    width: 70%;
+}
 .container_medium{
     margin: auto;
     width: 90%;
-    height: 633px;
-    margin-top: 3rem;
-    background-color: black;
 }
 .title{
-    height: 218px;
-    background-color: yellow; 
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 2rem;
 }
 
 .box{
@@ -105,17 +109,14 @@ a[href]{
 }
 
 .description{
-    width: 387px;
-    height: 387px;
-    background-color: aqua;
-    margin-top: 1.70rem;
+    width: 1200px;
+    margin-top: 2rem;
+}
+.space{
+    margin-bottom: 2rem;
 }
 .front_app{
-    width: 672px;
-    height: 387px;
-    background-color: purple;
-    margin-top: 1.70rem;
-    margin-left: 2rem;
+    margin-top: 2rem;
 }
 /*  end  header of page*/
 
@@ -130,8 +131,8 @@ a[href]{
 
 
 .introduction{
-    background-color: green;
-    height: 133px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1rem;
 }
 .checkbox{
     height: 79px;

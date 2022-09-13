@@ -154,12 +154,14 @@ a[href]{
  .package>div{
     padding-bottom: 1rem;
  }
-.left{
-    float: left;
+.bag{
+    display: flex;
 }
-.pippo{
-    float: left;
+.package>h4{
+    padding-bottom: 1rem;
 }
+    
+
 .col_centrale{
     background-color: coral;
     height: 254px;

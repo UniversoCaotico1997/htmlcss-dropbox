@@ -15,6 +15,7 @@ img{
     clear: both;
     content: "";
 }
+
 /* end utility */
 
 
@@ -74,7 +75,7 @@ img{
 .customer{
     background-color: #0061FF;
     color: white;
-    padding: 3px;
+    padding: 8px;
     border: 1px solid #0061FF;
 }
 
@@ -143,7 +144,7 @@ h2{
     border: 1px solid black;
 }
 
- .symbol{
+.symbol{
     margin-top: 1rem;
     border-bottom: 1px solid black;
     text-align: center;
@@ -160,8 +161,9 @@ h2{
  .package>div{
     padding-bottom: 1rem;
  }
-.bag{
-    display: flex;
+
+.check_blue{
+    color: blue;
 }
 .package>h4{
     padding-bottom: 1rem;
@@ -171,11 +173,18 @@ h2{
     margin: 0rem 2rem;
     border: 1px solid black;
 }
+.office{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /*  end column */
 
 .picture{
-    margin: 4rem 2rem; 
+    margin: 4rem 2rem;
+    width: 600px;
+
 }
 .serch_partner{
     margin-top: 4rem;
@@ -199,9 +208,12 @@ h2{
     margin: 1rem 2rem;
 }
 
-.col_1>h3{
+h3{
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 1rem;
+}
+.col_4>img{
+    width: 80%;
 }
 .row{
     display: flex;
